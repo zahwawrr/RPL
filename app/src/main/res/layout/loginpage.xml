@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_22"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/android_22">
+
+    <View
+        android:id="@+id/page_4"
+        android:layout_width="306dp"
+        android:layout_height="640dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="45dp"
+        android:background="#00000000" >
+
+
+    </View>
+
+    <View
+        android:id="@+id/vector"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/vector" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="115dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="157dp"
+        android:gravity="top"
+        android:text="@string/username"
+        android:textAppearance="@style/username" />
+
+    <TextView
+        android:id="@+id/daftar"
+        android:layout_width="80dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="69dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/daftar"
+        android:textAppearance="@style/daftar" />
+
+</RelativeLayout>
+
