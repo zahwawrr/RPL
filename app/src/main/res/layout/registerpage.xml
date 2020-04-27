@@ -13,7 +13,7 @@
         android:layout_marginStart="140dp"
         android:layout_marginEnd="140dp"
         android:layout_marginTop="71dp"
-        android:text="Masuk"
+        android:text="@string/daftar"
         android:textAlignment="center"
         android:textAppearance="@style/daftar"
         android:fontFamily="Roboto-Light"
@@ -60,6 +60,27 @@
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:layout_marginStart="30dp"
+        android:text="Email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <EditText
+        android:id="@+id/inputemail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <TextView
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -67,7 +88,7 @@
         android:layout_marginStart="30dp"
         android:text="Password"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <EditText
         android:id="@+id/inputpass"
@@ -80,14 +101,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
+    <TextView
+        android:id="@+id/nomortelfon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:layout_marginStart="30dp"
+        android:text="Nomor HP"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <EditText
+        android:id="@+id/inputnomortelfon"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomortelfon" />
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="350dp"
         android:layout_height="35dp"
         android:layout_marginLeft="30dp"
+        android:layout_marginTop="407dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="106dp"
-        android:layout_marginTop="407dp"
         android:background="@drawable/bg_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
