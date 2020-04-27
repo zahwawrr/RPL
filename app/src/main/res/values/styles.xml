@@ -1,11 +1,11 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/orangeTeal</item>
+        <item name="colorPrimaryDark">@color/prime</item>
+        <item name="colorAccent">@color/white</item>
     </style>
 
     <style name="daftar">
@@ -18,6 +18,13 @@
             #FF9B35
         </item>
 
+        <item name="android:textStyle">
+            bold
+        </item>
+
+        <item name="android:fontFamily">
+            roboto_regular
+        </item>
     </style>
 
     <style name="username">
