@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">parkuy</string>
+    <string name="app_name">Parkuy</string>
     <string name="titleDaftar">Daftar</string>
     <string name="daftar">Daftar</string>
     <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="nomor_hp">Nomor HP</string>
+    <string name="lanjut">Lanjut</string>
 </resources>

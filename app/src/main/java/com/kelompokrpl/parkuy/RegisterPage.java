@@ -10,6 +10,6 @@ public class RegisterPage extends AppCompatActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.loginpage);
+        setContentView(R.layout.registerpage);
     }
 }
