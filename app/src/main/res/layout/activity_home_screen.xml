@@ -67,7 +67,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/Activity"
+        android:id="@+id/tombolActivity"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:background="@drawable/button3"

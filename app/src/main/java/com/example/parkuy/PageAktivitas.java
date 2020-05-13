@@ -8,24 +8,24 @@ import android.view.View;
 import android.widget.Button;
 
 public class HomeScreen extends AppCompatActivity {
-    private Button tombolActivity;
+    private Button tombolback;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-        tombolActivity = (Button) findViewById(R.id.tombolActivity);
-        tombolActivity.setOnClickListener(new View.OnClickListener(){
-        @Override
+        a = (Button) findViewById(R.id.aktivitas);
+        aktivitas.setOnClickListener(new View.OnClickListener(){
+            @Override
             public void onClick(View v){
-            openActivity();
-        }
+                openActivity();
+            }
         });
     }
 
     public void openActivity() {
-        Intent intent = new Intent(this, PageAktivitas.class);
+        Intent intent = new Intent(this, Activity.class);
         startActivity(intent);
     }
 }
