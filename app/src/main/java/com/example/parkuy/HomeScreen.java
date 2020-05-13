@@ -19,12 +19,12 @@ public class HomeScreen extends AppCompatActivity {
         tombolActivity.setOnClickListener(new View.OnClickListener(){
         @Override
             public void onClick(View v){
-            openActivity();
+            openPageAktivitas();
         }
         });
     }
 
-    public void openActivity() {
+    public void openPageAktivitas() {
         Intent intent = new Intent(this, PageAktivitas.class);
         startActivity(intent);
     }

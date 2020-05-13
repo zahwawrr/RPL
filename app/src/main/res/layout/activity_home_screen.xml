@@ -86,15 +86,13 @@
         android:id="@+id/Profile"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="120dp"
         android:background="@drawable/profilewhite"
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Activity"
-        app:layout_constraintBottom_toTopOf="@+id/ProfileText"
-        app:layout_constraintVertical_bias="0.971" />
+        app:layout_constraintTop_toBottomOf="@+id/tombolActivity"
+        app:layout_constraintVertical_bias="0.888" />
 
     <TextView
         android:id="@+id/Halo"

@@ -7,25 +7,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class HomeScreen extends AppCompatActivity {
+public class PageAktivitas extends AppCompatActivity {
     private Button tombolback;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_screen);
+        setContentView(R.layout.activity_);
 
-        a = (Button) findViewById(R.id.aktivitas);
-        aktivitas.setOnClickListener(new View.OnClickListener(){
+        tombolback = (Button) findViewById(R.id.tombolback);
+        tombolback.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                openActivity();
+                openHomeScreen();
             }
         });
     }
 
-    public void openActivity() {
-        Intent intent = new Intent(this, Activity.class);
+    public void openHomeScreen() {
+        Intent intent = new Intent(this, HomeScreen.class);
         startActivity(intent);
     }
 }
