@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/tombolback"
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:background="@drawable/panahback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <ImageView
+        android:id="@+id/aktivitas"
+        android:layout_width="315dp"
+        android:layout_height="300dp"
+        android:src="@drawable/kotakaktivitas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229" />
+
+    <ImageView
+        android:id="@+id/fotoparkir"
+        android:layout_width="330dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="-20dp"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="-20dp"
+        android:layout_marginRight="-20dp"
+        android:layout_marginBottom="-20dp"
+        android:src="@drawable/fotoparkiran"
+        app:layout_constraintBottom_toBottomOf="@+id/aktivitas"
+        app:layout_constraintEnd_toEndOf="@+id/aktivitas"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/aktivitas"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <TextView
+        android:id="@+id/namaparkir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="112dp"
+        android:text="Nama Parkir"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/aktivitas"
+        app:layout_constraintEnd_toEndOf="@+id/aktivitas"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="@+id/aktivitas"
+        app:layout_constraintTop_toBottomOf="@+id/fotoparkir"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/alamatpakir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="92dp"
+        android:text="Jl. Lorem Ipsum Dolor Sit Amet"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/aktivitas"
+        app:layout_constraintEnd_toEndOf="@+id/aktivitas"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="@+id/aktivitas"
+        app:layout_constraintTop_toBottomOf="@+id/namaparkir"
+        app:layout_constraintVertical_bias="0.205" />
+
+    <TextView
+        android:id="@+id/biaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biaya"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/aktivitas"
+        app:layout_constraintEnd_toEndOf="@+id/aktivitas"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="@+id/aktivitas"
+        app:layout_constraintTop_toBottomOf="@+id/alamatpakir"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <TextView
+        android:id="@+id/nombiaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14.000"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/aktivitas"
+        app:layout_constraintEnd_toEndOf="@+id/aktivitas"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="@+id/aktivitas"
+        app:layout_constraintTop_toBottomOf="@+id/biaya"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/TulisanAktivitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aktivitas"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/aktivitas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
