@@ -58,7 +58,7 @@
         android:layout_height="100dp"
         android:background="@drawable/button2"
         android:gravity="center"
-        android:text="Park Later"
+        android:text="Find Park"
         android:textColor="#ffffff"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
