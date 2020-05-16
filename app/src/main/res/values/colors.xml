@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="orangeTeal">#FF9B35</color>
+    <color name="prime">#0A1F30</color>
+    <color name="bodyText">#52575C</color>
+    <color name="inactiveIcon">#A0A4A8</color>
+    <color name="white">#E5E5E5</color>
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
