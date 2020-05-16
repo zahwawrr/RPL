@@ -7,24 +7,38 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Resi extends AppCompatActivity {
+public class mulaiparkir extends AppCompatActivity {
     private Button tombolback;
+    private Button tombolmulai;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.resiparkir);
+        setContentView(R.layout.activity_mulaiparkir);
 
         tombolback = (Button) findViewById(R.id.tombolback);
         tombolback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                PageAktivitas();
+                openfindpark();
+            }
+        });
+
+        tombolmulai = (Button) findViewById(R.id.tombolmulai);
+        tombolmulai.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openPageAktivitas();
             }
         });
     }
 
-    public void PageAktivitas() {
+    public void openfindpark() {
+        Intent intent = new Intent(this, findpark.class);
+        startActivity(intent);
+    }
+
+    public void openPageAktivitas() {
         Intent intent = new Intent(this, PageAktivitas.class);
         startActivity(intent);
     }

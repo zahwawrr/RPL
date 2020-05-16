@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Resi">
 
     <Button
         android:id="@+id/tombolback"
@@ -30,10 +31,10 @@
         app:layout_constraintVertical_bias="0.247" />
 
     <TextView
-        android:id="@+id/tulisanresi"
+        android:id="@+id/tulisanmulaiparkir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RESI"
+        android:text="MULAI PARKIR"
         android:textColor="#000000"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -53,11 +54,11 @@
         app:layout_constraintTop_toBottomOf="@+id/rincian" />
 
     <Button
-        android:id="@+id/tombolbayar"
+        android:id="@+id/tombolmulai"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:background="@drawable/backakhiriparkir"
-        android:text="Bayar"
+        android:text="Mulai"
         android:textColor="#ffffff"
         android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -118,10 +119,11 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="108dp"
         android:layout_marginRight="108dp"
-        android:text="Rp. 5000,- / 24 Jam"
+        android:text="Rp. 5000,- / Jam"
         android:textColor="#000000"
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="@+id/rincian"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/logoduithitam"
         app:layout_constraintTop_toBottomOf="@+id/alamatparkir" />
 
@@ -162,14 +164,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="108dp"
         android:layout_marginRight="108dp"
-        android:text="12 : 36 : 40"
+        android:text="- : - : -"
         android:textColor="#000000"
-        android:textSize="18dp"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="@+id/rincian"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="@+id/rincian"
         app:layout_constraintTop_toBottomOf="@+id/masuk" />
 
@@ -214,15 +216,15 @@
         android:layout_marginEnd="108dp"
         android:layout_marginRight="108dp"
         android:layout_marginBottom="29dp"
-        android:text="15 : 10 : 56"
+        android:text="- : - : -"
         android:textColor="#000000"
-        android:textSize="18dp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/total"
         app:layout_constraintEnd_toEndOf="@+id/rincian"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="@+id/rincian"
         app:layout_constraintTop_toBottomOf="@+id/keluar"
-        app:layout_constraintVertical_bias="0.076" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/tulisantotal"
@@ -243,7 +245,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Rp. 15.000,-"
+        android:text="-"
         android:textColor="#ffffff"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/total"

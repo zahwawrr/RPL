@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/kodeparkir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan kode parkir"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputkodeparkir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Kode parkir"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/keterangankode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:text="Petunjuk memasukkan kode parkir tertera pada palang pintu masuk parkir"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tombolbackbatal"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:background="@drawable/backbatal"
+            android:text="Batal"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/tombollanjut"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/backakhiriaja"
+            android:text="Lanjut"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+    </LinearLayout>
+</LinearLayout>

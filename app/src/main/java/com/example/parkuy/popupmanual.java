@@ -12,26 +12,26 @@ import androidx.annotation.Nullable;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
-public class modal_bottom_akhiriparkir extends BottomSheetDialogFragment {
+public class popupmanual extends BottomSheetDialogFragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
-        View v = inflater.inflate(R.layout.activity_modal_bottom_akhiriparkir, container, false);
+        View v = inflater.inflate(R.layout.activity_popupmanual, container, false);
 
         Button btnbatal = (Button)v.findViewById(R.id.tombolbackbatal);
         btnbatal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(),PageAktivitas.class));
+                startActivity(new Intent(getActivity(),findpark.class));
             }
         });
 
-        Button btnakhiri = (Button)v.findViewById(R.id.tombolakhiriparkir2);
-        btnakhiri.setOnClickListener(new View.OnClickListener() {
+        Button btnlanjut = (Button)v.findViewById(R.id.tombollanjut);
+        btnlanjut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(),Resi.class));
+                startActivity(new Intent(getActivity(),mulaiparkir.class));
             }
         });
         return v;
