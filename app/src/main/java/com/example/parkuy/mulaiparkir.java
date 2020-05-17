@@ -1,45 +1,45 @@
 package com.example.parkuy;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.kelompokrpl.parkuy.R;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class PageAktivitas extends AppCompatActivity {
+public class mulaiparkir extends AppCompatActivity {
     private Button tombolback;
-    private Button tombolakhiriparkir;
+    private Button tombolmulai;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_);
+        setContentView(R.layout.activity_mulaiparkir);
 
         tombolback = (Button) findViewById(R.id.tombolback);
         tombolback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openHomeScreen();
+                openfindpark();
             }
         });
 
-        tombolakhiriparkir = (Button) findViewById(R.id.tombolakhiriparkir);
-        tombolakhiriparkir.setOnClickListener(new View.OnClickListener(){
+        tombolmulai = (Button) findViewById(R.id.tombolmulai);
+        tombolmulai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                modal_bottom_akhiriparkir bottom_akhiriparkir = new modal_bottom_akhiriparkir();
-                bottom_akhiriparkir.show(getSupportFragmentManager(), "modalMenu");
+                openPageAktivitas();
             }
         });
     }
 
-    public void openHomeScreen() {
-        Intent intent = new Intent(this, HomeScreen.class);
+    public void openfindpark() {
+        Intent intent = new Intent(this, findpark.class);
+        startActivity(intent);
+    }
+
+    public void openPageAktivitas() {
+        Intent intent = new Intent(this, PageAktivitas.class);
         startActivity(intent);
     }
 }

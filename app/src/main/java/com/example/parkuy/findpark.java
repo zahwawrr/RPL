@@ -1,24 +1,20 @@
 package com.example.parkuy;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.kelompokrpl.parkuy.R;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class PageAktivitas extends AppCompatActivity {
+public class findpark extends AppCompatActivity {
+    private Button manualfindpark;
     private Button tombolback;
-    private Button tombolakhiriparkir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_);
+        setContentView(R.layout.activity_findpark);
 
         tombolback = (Button) findViewById(R.id.tombolback);
         tombolback.setOnClickListener(new View.OnClickListener() {
@@ -28,12 +24,12 @@ public class PageAktivitas extends AppCompatActivity {
             }
         });
 
-        tombolakhiriparkir = (Button) findViewById(R.id.tombolakhiriparkir);
-        tombolakhiriparkir.setOnClickListener(new View.OnClickListener(){
+        manualfindpark = (Button) findViewById(R.id.manualfindpark);
+        manualfindpark.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                modal_bottom_akhiriparkir bottom_akhiriparkir = new modal_bottom_akhiriparkir();
-                bottom_akhiriparkir.show(getSupportFragmentManager(), "modalMenu");
+                popupmanual bottom_popupmanual = new popupmanual();
+                bottom_popupmanual.show(getSupportFragmentManager(), "modalMenu");
             }
         });
     }
@@ -43,3 +39,5 @@ public class PageAktivitas extends AppCompatActivity {
         startActivity(intent);
     }
 }
+
+

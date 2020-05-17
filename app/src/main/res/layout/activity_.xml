@@ -112,7 +112,7 @@
         android:id="@+id/TulisanAktivitas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aktivitas"
+        android:text="AKTIVITAS"
         android:textColor="#000000"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -120,6 +120,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tombolakhiriparkir"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/backakhiriparkir"
+        android:text="Akhiri Parkir"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aktivitas" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

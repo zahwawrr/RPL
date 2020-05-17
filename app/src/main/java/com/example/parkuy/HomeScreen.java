@@ -7,10 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.kelompokrpl.parkuy.R;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class HomeScreen extends AppCompatActivity {
     private Button tombolActivity;
+    private Button tombolFindPark;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,14 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v){
             openPageAktivitas();
         }
+        });
+
+        tombolFindPark = (Button) findViewById(R.id.tombolFindPark);
+        tombolFindPark.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                openfindpark();
+            }
         });
     }
 
