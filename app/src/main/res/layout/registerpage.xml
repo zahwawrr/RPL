@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".RegisterPage"
+    tools:context="com.example.parkuy.RegisterPage"
     android:id="@+id/registerpage"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -16,8 +16,7 @@
         android:layout_marginTop="71dp"
         android:text="@string/daftar"
         android:textAlignment="center"
-        android:textAppearance="@style/daftar"
-        android:fontFamily="Roboto-Light"
+        android:textAppearance="@style/JudulPageLoginRegister"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -38,99 +37,155 @@
             android:src="@drawable/ic_chevron_left_black_24dp" />
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+
+        android:text="@string/nama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/daftar" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutinputname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/nama"
+            android:inputType="text"
+            android:textSize="14sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="28dp"
-        android:layout_marginTop="77dp"
+        android:layout_marginTop="80dp"
         android:text="@string/username"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/daftar" />
+        app:layout_constraintTop_toBottomOf="@+id/name" />
 
-    <EditText
-        android:id="@+id/inputusername"
-        android:layout_width="350dp"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutinputusername"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username" />
+        app:layout_constraintTop_toBottomOf="@+id/username">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputusername"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:textSize="14sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="80dp"
         android:layout_marginStart="30dp"
         android:text="@string/email"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
-    <EditText
-        android:id="@+id/inputemail"
-        android:layout_width="350dp"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutinputemail"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintTop_toBottomOf="@+id/email">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputemail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textSize="14sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="80dp"
         android:layout_marginStart="30dp"
         android:text="@string/password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
-    <EditText
-        android:id="@+id/inputpass"
-        android:layout_width="350dp"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutinputpass"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:passwordToggleEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputpass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="14sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/nomortelfon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="80dp"
         android:layout_marginStart="30dp"
         android:text="@string/nomor_hp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
-    <EditText
-        android:id="@+id/inputnomortelfon"
-        android:layout_width="350dp"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutinputnotelp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nomortelfon" />
+        app:layout_constraintTop_toBottomOf="@+id/nomortelfon">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputnotelp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/nomor_hp"
+            android:inputType="number"
+            android:textSize="14sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
+        android:id="@+id/lanjutbtn"
         android:layout_width="350dp"
         android:layout_height="35dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="407dp"
+        android:layout_marginTop="460dp"
         android:layout_marginRight="30dp"
-        android:layout_marginBottom="106dp"
+        android:layout_marginBottom="0dp"
         android:background="@drawable/bg_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

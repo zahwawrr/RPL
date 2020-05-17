@@ -1,12 +1,13 @@
-package com.kelompokrpl.parkuy;
+package com.example.parkuy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.LinearLayout;
+
+import com.kelompokrpl.parkuy.R;
 
 public class LandingPage extends AppCompatActivity implements View.OnClickListener{
 
@@ -27,10 +28,12 @@ public class LandingPage extends AppCompatActivity implements View.OnClickListen
             case R.id.btn_masuk:
                 Intent moveMasuk = new Intent(LandingPage.this, LoginPage.class);
                 startActivity(moveMasuk);
+                finish();
                 break;
             case R.id.btn_daftar:
                 Intent moveDaftar = new Intent(LandingPage.this, RegisterPage.class);
                 startActivity(moveDaftar);
+                finish();
                 break;
         }
     }

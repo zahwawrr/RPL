@@ -1,4 +1,4 @@
-package com.kelompokrpl.parkuy;
+package com.example.parkuy;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,8 +19,7 @@ import com.karumi.dexter.listener.PermissionDeniedResponse;
 import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
-
-import java.util.Scanner;
+import com.kelompokrpl.parkuy.R;
 
 public class QrCodeScannerActivity extends AppCompatActivity {
 

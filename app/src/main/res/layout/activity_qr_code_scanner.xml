@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QrCodeScannerActivity">
+    tools:context="com.example.parkuy.QrCodeScannerActivity">
 
     <com.budiyev.android.codescanner.CodeScannerView
         android:id="@+id/scannerView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
         android:foregroundGravity="center"
         app:autoFocusButtonColor="@android:color/white"
-        app:autoFocusButtonVisible="true"
+        app:autoFocusButtonVisible="false"
         app:flashButtonColor="@android:color/white"
         app:flashButtonVisible="true"
         app:frameAspectRatioHeight="1"

@@ -5,6 +5,8 @@
     tools:ignore="GoogleAppIndexingWarning">
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -13,16 +15,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegisterPage"></activity>
-        <activity android:name=".QrCodeScannerActivity" />
-        <activity android:name=".LoginPage" />
-        <activity android:name=".LandingPage">
+        <activity android:name="com.example.parkuy.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.parkuy.RegisterPage"/>
+        <activity android:name="com.example.parkuy.QrCodeScannerActivity" />
+        <activity android:name="com.example.parkuy.LoginPage" />
+        <activity android:name="com.example.parkuy.LandingPage"/>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>
