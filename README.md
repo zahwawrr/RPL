@@ -3,7 +3,7 @@
 Aplikasi Smart Parking
 
 ### Anggota Kelompok 1
-1. Rafael Tektano Grandiawan Eknanda **G64180001**
+1. Rafael Tektano Grandiawan Ekananda **G64180001**
 2. Fitra Andika **G64180035**
 3. Zahwa Wahyu Riana **G64180070**
 
@@ -65,9 +65,12 @@ Target dari aplikasi kita adalah pengendara sepeda motor yang kebingungan dalam 
 ### Team Gantt
 
 ## ERD
+![ERD fi parkuy](https://user-images.githubusercontent.com/47895564/82217034-09d4fa80-9944-11ea-8701-e8e7926632b9.png)
+
 
 ## Hasil Implementasi Perangkat Lunak
 
 ### Penjelasan Singkat
+Kelompok kami telah membuat video berupa tampilan tutorial dari implementasi aplikasi mobile yang telah kami buat. Video ini menjadi bukti bahwa aplikasi kami sudah bisa dijalankan meskipun masih terdpat kekurangan. Kami berharap aplikasi kami bisa berguna di kemudian hari nantinya.
 
 #### Link Video
