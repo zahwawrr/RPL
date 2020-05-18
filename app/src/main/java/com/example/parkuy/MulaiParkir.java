@@ -7,37 +7,39 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class findpark extends AppCompatActivity {
-    private Button manualfindpark;
+public class MulaiParkir extends AppCompatActivity {
     private Button tombolback;
+    private Button tombolmulai;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_findpark);
+        setContentView(R.layout.activity_mulaiparkir);
 
         tombolback = (Button) findViewById(R.id.tombolback);
         tombolback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openHomeScreen();
+                openParkNow();
             }
         });
 
-        manualfindpark = (Button) findViewById(R.id.manualfindpark);
-        manualfindpark.setOnClickListener(new View.OnClickListener(){
+        tombolmulai = (Button) findViewById(R.id.tombolmulai);
+        tombolmulai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                popupmanual bottom_popupmanual = new popupmanual();
-                bottom_popupmanual.show(getSupportFragmentManager(), "modalMenu");
+                openPageAktivitas();
             }
         });
     }
 
-    public void openHomeScreen() {
-        Intent intent = new Intent(this, HomeScreen.class);
+    public void openParkNow() {
+        Intent intent = new Intent(this, ParkNow.class);
+        startActivity(intent);
+    }
+
+    public void openPageAktivitas() {
+        Intent intent = new Intent(this, PageAktivitas.class);
         startActivity(intent);
     }
 }
-
-

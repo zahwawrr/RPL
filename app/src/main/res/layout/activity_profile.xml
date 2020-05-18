@@ -6,9 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Profile">
 
-
-
-
     <LinearLayout
         android:id="@+id/view1"
         android:gravity="center"

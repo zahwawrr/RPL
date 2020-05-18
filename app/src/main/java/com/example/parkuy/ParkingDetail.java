@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.kelompokrpl.parkuy.R;
-
 public class ParkingDetail extends AppCompatActivity {
 
     @Override

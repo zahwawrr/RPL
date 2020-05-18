@@ -35,9 +35,9 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/ParkNow"
+        android:id="@+id/tombolParkNow"
         android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
         android:layout_centerInParent="true"
         android:layout_marginBottom="12dp"
         android:background="@drawable/button1"
@@ -55,7 +55,7 @@
     <Button
         android:id="@+id/tombolFindPark"
         android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
         android:background="@drawable/button2"
         android:gravity="center"
         android:text="Find Park"
@@ -69,7 +69,7 @@
     <Button
         android:id="@+id/tombolActivity"
         android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
         android:background="@drawable/button3"
         android:gravity="center"
         android:text="Activity"
@@ -101,7 +101,7 @@
         android:text="Halo,"
         android:textColor="#000000"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/ParkNow"
+        app:layout_constraintBottom_toTopOf="@+id/tombolParkNow"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
@@ -115,7 +115,7 @@
         android:text="[username]"
         android:textColor="#000000"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/ParkNow"
+        app:layout_constraintBottom_toTopOf="@+id/tombolParkNow"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.18"
         app:layout_constraintStart_toStartOf="parent"

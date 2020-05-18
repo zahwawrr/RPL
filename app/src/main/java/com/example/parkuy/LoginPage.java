@@ -12,7 +12,6 @@ import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
-import com.kelompokrpl.parkuy.R;
 
 public class LoginPage extends AppCompatActivity implements View.OnClickListener {
     LinearLayout btnBack, btnLanjut;

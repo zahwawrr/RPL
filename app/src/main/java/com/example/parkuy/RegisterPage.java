@@ -12,7 +12,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
-import com.kelompokrpl.parkuy.R;
 
 public class RegisterPage extends AppCompatActivity implements View.OnClickListener{
     LinearLayout btnBack, btnLanjut;

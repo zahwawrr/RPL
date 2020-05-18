@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Resi extends AppCompatActivity {
     private Button tombolback;
+    private Button tombolbayar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,10 +23,23 @@ public class Resi extends AppCompatActivity {
                 PageAktivitas();
             }
         });
+
+        tombolbayar = (Button) findViewById(R.id.tombolbayar);
+        tombolbayar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openSampaiJumpa();
+            }
+        });
     }
 
     public void PageAktivitas() {
         Intent intent = new Intent(this, PageAktivitas.class);
+        startActivity(intent);
+    }
+
+    public void openSampaiJumpa() {
+        Intent intent = new Intent(this, sampaijumpa.class);
         startActivity(intent);
     }
 }

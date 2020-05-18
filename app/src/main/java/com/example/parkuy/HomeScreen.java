@@ -7,12 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 public class HomeScreen extends AppCompatActivity {
     private Button tombolActivity;
-    private Button tombolFindPark;
-
+    private Button tombolParkNow;
+    private Button profile;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,17 +24,35 @@ public class HomeScreen extends AppCompatActivity {
         }
         });
 
-        tombolFindPark = (Button) findViewById(R.id.tombolFindPark);
-        tombolFindPark.setOnClickListener(new View.OnClickListener(){
+        tombolParkNow = (Button) findViewById(R.id.tombolParkNow);
+        tombolParkNow.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                openfindpark();
+                openParkNow();
+            }
+        });
+
+        profile = (Button) findViewById(R.id.Profile);
+        profile.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                openProfile();
             }
         });
     }
 
     public void openPageAktivitas() {
         Intent intent = new Intent(this, PageAktivitas.class);
+        startActivity(intent);
+    }
+
+    public void openParkNow() {
+        Intent intent = new Intent(this, ParkNow.class);
+        startActivity(intent);
+    }
+
+    public void openProfile() {
+        Intent intent = new Intent(this, Profile.class);
         startActivity(intent);
     }
 }
