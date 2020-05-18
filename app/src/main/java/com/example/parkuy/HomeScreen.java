@@ -30,7 +30,7 @@ public class HomeScreen extends AppCompatActivity {
         tombolFindPark.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                openfindpark();
+                //openfindpark();
             }
         });
     }

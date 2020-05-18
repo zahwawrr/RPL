@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.kelompokrpl.parkuy.R;
+
 
 public class LandingPage extends AppCompatActivity implements View.OnClickListener{
 

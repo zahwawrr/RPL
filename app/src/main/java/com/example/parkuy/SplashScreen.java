@@ -8,7 +8,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.kelompokrpl.parkuy.R;
 
 public class SplashScreen extends AppCompatActivity {
 
