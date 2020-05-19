@@ -68,6 +68,7 @@ Target dari aplikasi kita adalah pengendara sepeda motor yang kebingungan dalam 
 ## Gantt Chart
 
 ### Trello
+![Trello](https://user-images.githubusercontent.com/47895564/82359663-631b5780-9a32-11ea-9ad9-769974f0a5b9.jpg)
 
 ### Team Gantt
 
