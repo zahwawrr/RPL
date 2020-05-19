@@ -49,7 +49,7 @@ Target dari aplikasi kita adalah pengendara sepeda motor yang kebingungan dalam 
 ![USD1](https://user-images.githubusercontent.com/47895564/82358903-5d714200-9a31-11ea-8322-26259f5d049d.jpg)
 
 #### Proses Parkir Sekarang (Park Now)
-![USD2](https://user-images.githubusercontent.com/47895564/82359245-da9cb700-9a31-11ea-9d85-ac0936e88365.jpg)
+![USD2New](https://user-images.githubusercontent.com/47895564/82360524-bb9f2480-9a33-11ea-9589-240da2a8c472.jpg)
 
 #### Proses pada Halaman Aktivitas
 ![USD3](https://user-images.githubusercontent.com/47895564/82359325-f3a56800-9a31-11ea-86bc-a35d9039f2ad.jpg)
