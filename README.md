@@ -37,9 +37,10 @@ Aplikasi dengan konsep smart parking menyediakan fitur untuk mencari tempat park
 Target dari aplikasi kita adalah pengendara sepeda motor yang kebingungan dalam mencari tempat parkir di tempat umum. Kebanyakan pengendara sepeda motor kesulitan dalam mencari lokasi tempat parkir yang masih kosong di tempat umum sehingga banyak membuang waktu pengendara sepeda motor.
 
 ## User Story
-1. Sebagai pengendara sepeda motor, saya ingin mengetahui tempat parkir yang masih kosong sebelum saya pergi ke tempat parkir tersebut.
+1. Sebagai pengendara sepeda motor, saya ingin mengetahui tempat parkir yang masih tersedia sebelum saya pergi ke tempat parkir tersebut.
 2. Sebagai pengendara sepeda motor, saya ingin mengetahui tarif parkir di masing-masing tempat parkir.
-3. 
+3. Sebagai pengendara sepeda motor, saya ingin melacak secara real-time biaya parkir yang harus saya bayar.
+4. Sebagai pengendara sepeda motor, saya ingin parkir secara langsung ketika keadaan tertentu.
 
 ## Use Case Diagram
 
@@ -71,6 +72,8 @@ Target dari aplikasi kita adalah pengendara sepeda motor yang kebingungan dalam 
 ![Trello](https://user-images.githubusercontent.com/47895564/82359663-631b5780-9a32-11ea-9ad9-769974f0a5b9.jpg)
 
 ### Team Gantt
+![teamgantt](https://user-images.githubusercontent.com/47895564/82361619-459bbd00-9a35-11ea-88bb-a851a176cdc8.jpg)
+
 
 ## ERD
 ![ERD fi parkuy](https://user-images.githubusercontent.com/47895564/82217034-09d4fa80-9944-11ea-8701-e8e7926632b9.png)
