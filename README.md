@@ -43,6 +43,7 @@ Target dari aplikasi kita adalah pengendara sepeda motor yang kebingungan dalam 
 4. Sebagai pengendara sepeda motor, saya ingin parkir secara langsung ketika keadaan tertentu.
 
 ## Use Case Diagram
+![USE CASE DIAGRAM PARKUY (1)](https://user-images.githubusercontent.com/60166539/82386666-27e34d80-9a5f-11ea-8d25-67542280b9cc.jpg)
 
 ## Use Case Description
 
@@ -61,10 +62,20 @@ Target dari aplikasi kita adalah pengendara sepeda motor yang kebingungan dalam 
 ## Activity Diagram
 
 #### Activity Diagram : Memasukkan Akun
+![AD LOGIN](https://user-images.githubusercontent.com/60166539/82386722-4c3f2a00-9a5f-11ea-8b99-8dca2cdc5dcc.jpg)
 
-#### Activity Diagram : Mencari Tempat Pakir
+#### Activity Diagram : Find Park
+![AD FIND PARK](https://user-images.githubusercontent.com/60166539/82387213-a68cba80-9a60-11ea-8e08-3b10554232a1.jpg)
 
 #### Activity Diagram : Park Now
+![AD PARK NOW](https://user-images.githubusercontent.com/60166539/82387738-0c2d7680-9a62-11ea-9b92-53d251226904.jpg)
+
+### Activity Diagram : Activity
+![AD ACTIVITY](https://user-images.githubusercontent.com/60166539/82387227-adb3c880-9a60-11ea-8a26-69ce41c70c2c.jpg)
+
+
+### Activity Diagram : Edit Profile
+![AD EDIT PROFILE](https://user-images.githubusercontent.com/60166539/82387222-abea0500-9a60-11ea-988c-aef8d7cb7af9.jpg)
 
 ## Gantt Chart
 
@@ -72,8 +83,8 @@ Target dari aplikasi kita adalah pengendara sepeda motor yang kebingungan dalam 
 ![Trello](https://user-images.githubusercontent.com/47895564/82359663-631b5780-9a32-11ea-9ad9-769974f0a5b9.jpg)
 
 ### Team Gantt
-![teamgantt](https://user-images.githubusercontent.com/47895564/82361619-459bbd00-9a35-11ea-88bb-a851a176cdc8.jpg)
-
+![GANT1](https://user-images.githubusercontent.com/60166539/82387273-c9b76a00-9a60-11ea-9ee5-075da7dc0c71.jpg)
+![GANT2](https://user-images.githubusercontent.com/60166539/82387278-cb812d80-9a60-11ea-9dfe-194135b9f049.jpg)
 
 ## ERD
 ![ERD fi parkuy](https://user-images.githubusercontent.com/47895564/82217034-09d4fa80-9944-11ea-8701-e8e7926632b9.png)
