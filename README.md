@@ -48,8 +48,14 @@ Target dari aplikasi kita adalah pengendara sepeda motor yang kebingungan dalam 
 #### Proses Pencarian Tempat Parkir (Find Park)
 ![USD1](https://user-images.githubusercontent.com/47895564/82358903-5d714200-9a31-11ea-8322-26259f5d049d.jpg)
 
+#### Proses Parkir Sekarang (Park Now)
+![USD2](https://user-images.githubusercontent.com/47895564/82359245-da9cb700-9a31-11ea-9d85-ac0936e88365.jpg)
 
-#### Proses Park Now
+#### Proses pada Halaman Aktivitas
+![USD3](https://user-images.githubusercontent.com/47895564/82359325-f3a56800-9a31-11ea-86bc-a35d9039f2ad.jpg)
+
+#### Proses Pada Halaman Profile
+![USD4](https://user-images.githubusercontent.com/47895564/82359347-fa33df80-9a31-11ea-84b6-b075c1a95e16.jpg)
 
 ## Activity Diagram
 
