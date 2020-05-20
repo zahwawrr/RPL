@@ -96,3 +96,4 @@ Target dari aplikasi kita adalah pengendara sepeda motor yang kebingungan dalam 
 Kelompok kami telah membuat video berupa tampilan tutorial dari implementasi aplikasi mobile yang telah kami buat. Video ini menjadi bukti bahwa aplikasi kami sudah bisa dijalankan meskipun masih terdpat kekurangan. Kami berharap aplikasi kami bisa berguna di kemudian hari nantinya.
 
 #### Link Video
+https://youtu.be/j1yI0Ost0WY
