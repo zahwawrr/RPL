@@ -28,7 +28,6 @@ Tujuan pengembangan aplikasi smart parking adalah sebagai berikut :
 ## Ruang Lingkup
 1. Aplikasi ini harus terhubung dengan internet untuk melakukan pencarian tempat parkir dan parkir sekarang.
 2. Pengendara sepeda motor yang cenderung jarang memakai ponsel harus terbiasa untuk mencari lokasi parkir melalui ponsel mereka.
-3. 
 
 ## Deskripsi Aplikasi
 Aplikasi dengan konsep smart parking menyediakan fitur untuk mencari tempat parkir terdekat beserta harganya, memesan parkir valet, menampilkan kuota parkir yang tersedia pada tempat-tempat umum, menyediakan metode pembayaran secara cash maupun cashless dan memungkinkan pemilik lahan untuk menjadikan lahan kosongnya sebagai tempat parkir. Aplikasi akan menampilkan maps kemudian merekomendasikan tempat parkir terdekat dan tarif perjam dari lokasi yang terdeteksi. Pengemudi juga dapat memilih lokasi yang dituju pada kolom search guna mengetahui kuota parkir yang tersedia. Pemilik lahan dapat mendaftarkan lahan kosongnya untuk digunakan sebagai tempat parkir, kemudian pihak developer akan mencarikan pekerja untuk memantau jumlah ketersediaan tempat parkir di lahan tersebut.
