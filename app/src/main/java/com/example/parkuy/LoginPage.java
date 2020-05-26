@@ -31,11 +31,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LoginPage extends AppCompatActivity implements View.OnClickListener {
-    LinearLayout btnBack, btnLanjut;
-    TextView tv_username, tv_password;
-    TextInputLayout layout_email, layout_password;
-    TextInputEditText input_email, input_password;
-    SharedPreferences userPref;
+    private LinearLayout btnBack, btnLanjut;
+    private TextView tv_username, tv_password;
+    private TextInputLayout layout_email, layout_password;
+    private TextInputEditText input_email, input_password;
+    private SharedPreferences userPref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -125,18 +125,20 @@ public class LoginPage extends AppCompatActivity implements View.OnClickListener
                     editor.putString("username", user.getString("username"));
                     editor.putString("email", user.getString("email"));
                     editor.putString("notelp", user.getString("notelp"));
-                    editor.putString("fotoprofil", user.getString("fotoprofil"));
+                    editor.putString("photo", user.getString("photo"));
+                    editor.putBoolean("isLoggedIn", true);
                     editor.apply();
                     Toast.makeText(LoginPage.this, "Login Success", Toast.LENGTH_SHORT).show();
                     Intent toHomeScreen = new Intent(LoginPage.this, HomeScreen.class);
                     startActivity(toHomeScreen);
+                    finish();
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
             }
 
         }, error -> {
-            error.printStackTrace();
+        error.printStackTrace();
         }) {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
@@ -145,6 +147,7 @@ public class LoginPage extends AppCompatActivity implements View.OnClickListener
                 map.put("password", input_password.getText().toString());
                 return map;
             }
+
         };
         RequestQueue queue = Volley.newRequestQueue(this);
         queue.add(request);

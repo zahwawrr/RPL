@@ -8,7 +8,10 @@
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
     <application
+
         android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,15 +19,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ParkingDetail"/>
         <activity android:name=".mulaiparkir"/>
         <activity android:name=".findpark"/>
         <activity android:name=".sampaijumpa"/>
         <activity android:name="com.example.parkuy.Resi"/>
         <activity android:name=".modal_bottom_akhiriparkir" />
         <activity android:name=".HomeScreen"/>
-        <activity android:name="com.example.parkuy.SplashScreen">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER"/>
+
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
@@ -32,6 +37,9 @@
         <activity android:name="com.example.parkuy.QrCodeScannerActivity" />
         <activity android:name="com.example.parkuy.LoginPage" />
         <activity android:name="com.example.parkuy.LandingPage"/>
+        <activity android:name=".Profile"/>
+        <activity android:name=".PageAktivitas"/>
+
 
         <meta-data
             android:name="com.google.android.gms.version"

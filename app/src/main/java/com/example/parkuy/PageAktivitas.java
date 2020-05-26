@@ -31,8 +31,16 @@ public class PageAktivitas extends AppCompatActivity {
         tombolakhiriparkir.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                modal_bottom_akhiriparkir bottom_akhiriparkir = new modal_bottom_akhiriparkir();
-                bottom_akhiriparkir.show(getSupportFragmentManager(), "modalMenu");
+                switch (v.getId()) {
+
+                    case R.id.tombolakhiriparkir:
+                    modal_bottom_akhiriparkir bottom_akhiriparkir = new modal_bottom_akhiriparkir();
+                    bottom_akhiriparkir.show(getSupportFragmentManager(), "modalMenu");
+                    break;
+
+                    case R.id.tombolback:
+                    openHomeScreen();
+                }
             }
         });
     }

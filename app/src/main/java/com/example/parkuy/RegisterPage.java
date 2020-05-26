@@ -1,6 +1,5 @@
 package com.example.parkuy;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -211,13 +210,7 @@ public class RegisterPage extends AppCompatActivity implements View.OnClickListe
                 return map;
             }
 
-            @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
-                String token = userPref.getString("token","");
-                HashMap <String,String> map = new HashMap<>();
-                map.put("Authorization", "Bearer"+token);
-                return map;
-            }
+
         };
 
         RequestQueue queue = Volley.newRequestQueue(this);

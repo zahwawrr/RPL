@@ -24,6 +24,7 @@ public class modal_bottom_akhiriparkir extends BottomSheetDialogFragment {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(),PageAktivitas.class));
+
             }
         });
 
