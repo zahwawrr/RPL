@@ -6,46 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".sampaijumpa">
 
-    <TextView
-        android:id="@+id/sampai"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sampai"
-        android:textColor="#000000"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/sampaijumpa"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/artsampaijumpa"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.218" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/jumpa"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="jumpa"
-        android:textColor="#000000"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sampai"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/ya"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ya!"
-        android:textColor="#000000"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.179"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/jumpa"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sampai"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="103dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jumpa"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="130dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ya!"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="130dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tomboloke"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/backbatal"
+        android:text="Oke"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sampaijumpa"
+        app:layout_constraintVertical_bias="0.723" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

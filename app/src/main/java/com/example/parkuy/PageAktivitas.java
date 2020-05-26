@@ -7,9 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-
-import androidx.appcompat.app.AppCompatActivity;
-
 public class PageAktivitas extends AppCompatActivity {
     private Button tombolback;
     private Button tombolakhiriparkir;

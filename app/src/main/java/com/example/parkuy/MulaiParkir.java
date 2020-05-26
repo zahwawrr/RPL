@@ -22,7 +22,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Queue;
 
-public class mulaiparkir extends AppCompatActivity {
+public class MulaiParkir extends AppCompatActivity {
     private Button tombolback;
     private Button tombolmulai;
     private TextView namaparkir, alamatparkir, biayaperjam, totalharga;
@@ -79,7 +79,7 @@ public class mulaiparkir extends AppCompatActivity {
                     editor.putString("idReceipt", receipt_parkir.getString("id"));
                     editor.putString("jamMasuk", receipt_parkir.getString("jamMasuk"));
                     editor.apply();
-                    startActivity(new Intent(mulaiparkir.this, PageAktivitas.class));
+                    startActivity(new Intent(MulaiParkir.this, PageAktivitas.class));
                     finish();
                 }
 

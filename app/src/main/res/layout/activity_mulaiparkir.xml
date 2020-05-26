@@ -86,6 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jl. Lorem Ipsum Dolor Sit Amet"
+        android:layout_marginTop="6dp"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/rincian"
@@ -131,7 +132,7 @@
         android:layout_height="20dp"
         android:layout_marginStart="27dp"
         android:layout_marginLeft="27dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="23dp"
         android:layout_marginEnd="257dp"
         android:layout_marginRight="257dp"
         android:src="@drawable/logojamhitam"
@@ -178,14 +179,12 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginStart="27dp"
-        android:layout_marginLeft="27dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="257dp"
-        android:layout_marginRight="257dp"
         android:src="@drawable/logojamhitam"
         app:layout_constraintEnd_toEndOf="@+id/rincian"
         app:layout_constraintStart_toStartOf="@+id/rincian"
-        app:layout_constraintTop_toBottomOf="@+id/logoduithitam" />
+        app:layout_constraintTop_toBottomOf="@+id/logojamhitam" />
 
     <TextView
         android:id="@+id/keluar"

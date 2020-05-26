@@ -23,7 +23,7 @@ public class popupmanual extends BottomSheetDialogFragment {
         btnbatal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(),findpark.class));
+                startActivity(new Intent(getActivity(), ParkNow.class));
             }
         });
 
@@ -31,7 +31,7 @@ public class popupmanual extends BottomSheetDialogFragment {
         btnlanjut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(),mulaiparkir.class));
+                startActivity(new Intent(getActivity(), MulaiParkir.class));
             }
         });
         return v;

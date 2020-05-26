@@ -7,14 +7,14 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class findpark extends AppCompatActivity {
-    private Button manualfindpark;
+public class ParkNow extends AppCompatActivity {
+    private Button manualParkNow;
     private Button tombolback;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_findpark);
+        setContentView(R.layout.activity_parknow);
 
         tombolback = (Button) findViewById(R.id.tombolback);
         tombolback.setOnClickListener(new View.OnClickListener() {
@@ -24,8 +24,8 @@ public class findpark extends AppCompatActivity {
             }
         });
 
-        manualfindpark = (Button) findViewById(R.id.manualfindpark);
-        manualfindpark.setOnClickListener(new View.OnClickListener(){
+        manualParkNow = (Button) findViewById(R.id.manualParkNow);
+        manualParkNow.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 popupmanual bottom_popupmanual = new popupmanual();

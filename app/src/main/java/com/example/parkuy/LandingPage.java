@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-
-
 public class LandingPage extends AppCompatActivity implements View.OnClickListener{
 
     @Override
