@@ -28,7 +28,7 @@ public class HomeScreen extends AppCompatActivity implements View.OnClickListene
         tombolFindPark = findViewById(R.id.tombolFindPark);
         tombolProfil = findViewById(R.id.Profile);
         tv_username = findViewById(R.id.username);
-        tombolParkNow = findViewById(R.id.ParkNow);
+        tombolParkNow = findViewById(R.id.tombolParkNow);
 
         tombolActivity.setOnClickListener(this);
         tombolFindPark.setOnClickListener(this);
@@ -52,7 +52,7 @@ public class HomeScreen extends AppCompatActivity implements View.OnClickListene
                 finish();
                 break;
 
-            case R.id.ParkNow:
+            case R.id.tombolParkNow:
                 startActivity(new Intent(HomeScreen.this, QrCodeScannerActivity.class));
                 finish();
                 break;

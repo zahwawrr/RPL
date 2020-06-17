@@ -161,7 +161,7 @@ public class QrCodeScannerActivity extends AppCompatActivity implements ZXingSca
                     editor.putString("perHour", parkir.getString("perHour"));
                     editor.apply();
                     Toast.makeText(this,"Parkir Found", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(QrCodeScannerActivity.this, mulaiparkir.class));
+                    startActivity(new Intent(QrCodeScannerActivity.this, MulaiParkir.class));
                     finish();
 
                 }

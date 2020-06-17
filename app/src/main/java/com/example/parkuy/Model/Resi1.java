@@ -1,6 +1,6 @@
 package com.example.parkuy.Model;
 
-public class Resi {
+public class Resi1 {
     private int id, totalHarga ;
     private String namaParkir, alamatParkir;
     private String waktu;

@@ -79,7 +79,7 @@ public class MulaiParkir extends AppCompatActivity {
                     editor.putString("idReceipt", receipt_parkir.getString("id"));
                     editor.putString("jamMasuk", receipt_parkir.getString("jamMasuk"));
                     editor.apply();
-                    startActivity(new Intent(MulaiParkir.this, PageAktivitas.class));
+                    startActivity(new Intent(MulaiParkir.this, Resi.class));
                     finish();
                 }
 
